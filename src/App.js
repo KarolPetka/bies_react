@@ -380,7 +380,7 @@ function StacjaNarciarska_Aktualnosci() {
     </nav>
     <div className="menu-grid-1_1">
       <div className="buttons_left">
-        <NavLink className="boxButton" to={{ pathname: '/StacjaNarciarska', state: { prevPath: location.pathname } }}>aktualnosci</NavLink>
+        <NavLink className="boxButton" to={{ pathname: '/StacjaNarciarska', state: { prevPath: window.location.pathname } }}>aktualnosci</NavLink>
         <div className="boxButton" >cennik</div>
         <div className="boxButton" >trzy</div>
       </div>
