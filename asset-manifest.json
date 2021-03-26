@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/bies_react/static/css/main.9c94316f.chunk.css",
-    "main.js": "/bies_react/static/js/main.3e5ce205.chunk.js",
-    "main.js.map": "/bies_react/static/js/main.3e5ce205.chunk.js.map",
+    "main.js": "/bies_react/static/js/main.4cd660e9.chunk.js",
+    "main.js.map": "/bies_react/static/js/main.4cd660e9.chunk.js.map",
     "runtime-main.js": "/bies_react/static/js/runtime-main.3a5001d8.js",
     "runtime-main.js.map": "/bies_react/static/js/runtime-main.3a5001d8.js.map",
-    "static/js/2.037c1630.chunk.js": "/bies_react/static/js/2.037c1630.chunk.js",
-    "static/js/2.037c1630.chunk.js.map": "/bies_react/static/js/2.037c1630.chunk.js.map",
+    "static/js/2.4bfad9c1.chunk.js": "/bies_react/static/js/2.4bfad9c1.chunk.js",
+    "static/js/2.4bfad9c1.chunk.js.map": "/bies_react/static/js/2.4bfad9c1.chunk.js.map",
     "static/js/3.90ebca2f.chunk.js": "/bies_react/static/js/3.90ebca2f.chunk.js",
     "static/js/3.90ebca2f.chunk.js.map": "/bies_react/static/js/3.90ebca2f.chunk.js.map",
     "index.html": "/bies_react/index.html",
     "static/css/main.9c94316f.chunk.css.map": "/bies_react/static/css/main.9c94316f.chunk.css.map",
-    "static/js/2.037c1630.chunk.js.LICENSE.txt": "/bies_react/static/js/2.037c1630.chunk.js.LICENSE.txt",
+    "static/js/2.4bfad9c1.chunk.js.LICENSE.txt": "/bies_react/static/js/2.4bfad9c1.chunk.js.LICENSE.txt",
     "static/media/App.css": "/bies_react/static/media/zjazdTyrolski.a5bd9184.gif",
     "static/media/galeria1.3dda0808.jpg": "/bies_react/static/media/galeria1.3dda0808.jpg",
     "static/media/galeria2.87dca6f2.png": "/bies_react/static/media/galeria2.87dca6f2.png",
@@ -26,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.3a5001d8.js",
-    "static/js/2.037c1630.chunk.js",
+    "static/js/2.4bfad9c1.chunk.js",
     "static/css/main.9c94316f.chunk.css",
-    "static/js/main.3e5ce205.chunk.js"
+    "static/js/main.4cd660e9.chunk.js"
   ]
 }
