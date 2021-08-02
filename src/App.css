@@ -1,7 +1,6 @@
 .App{
     margin: 0;
     padding: 0;
-    background: url(assets/img/wyciag.jpg);
     width: 100vw;
     height: 100vh;
     background-position: top;
@@ -173,6 +172,7 @@
 .price-input{
   width: 3vw;
   font-size: 1.1vw;
+  text-align: center;
 }
 
 input::-webkit-outer-spin-button,
@@ -188,6 +188,7 @@ input[type=number] {
 .name-input{
   width: 8vw;
   font-size: 1.1vw;
+  text-align: center;
 }
 
 .admin-price-head{
@@ -209,7 +210,7 @@ input[type=number] {
   left: 40vw;
   width: 20vw;
   height: 5vh;
-  font-size: 14px;
+  font-size: 2vw;
   color: rgb(255, 255, 255);
   background-color: rgb(55, 194, 95);
   border-radius: 6px;
@@ -236,7 +237,7 @@ input[type=number] {
   left: 40vw;
   width: 20vw;
   height: 5vh;
-  font-size: 14px;
+  font-size: 2vw;
   color: rgb(255, 255, 255);
   background-color: rgb(204, 58, 58);
   border-radius: 6px;
@@ -257,8 +258,162 @@ input[type=number] {
   bottom: 10vh;
 }
 
+.admin-gallery{
+  position: fixed;
+  top: 20vh;
+  left: 20vw;
+  display: grid;
+  width: 60vw;
+  height: 80vh;
+  grid-template-columns: repeat(2, 1fr);
+  overflow-y: scroll;
+}
 
+.delete-image{
+  width: 20vw;
+  height: 5vh;
+  font-size: 2vw;
+  color: rgb(255, 255, 255);
+  background-color: rgb(204, 58, 58);
+  border-radius: 6px;
+  margin-bottom: 0.3vw;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
 
+.image-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img-input-container{
+  top: 0vh;
+  left: 21vw;
+  width: 58vw;
+  height: 20vh;
+  background-color: rgb(216, 216, 216);
+  position: fixed;
+  border-radius: 6px;
+}
+
+.image-select{
+  position: fixed;
+  top: 5vh;
+  left: 40vw;
+  width: 20vw;
+  height: 10vh;
+  font-size: 1.5vw;
+  color: rgb(255, 255, 255);
+  background-color: rgb(55, 194, 95);
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.video-container{
+  width: 60vw;
+  height: 50vh;
+  position: fixed;
+  top: 10vh;
+  left: 20vw;
+  object-fit: cover;
+}
+
+.upload-video{
+  width: 30vw;
+  height: 10vh;
+  position: fixed;
+  top: 65vh;
+  left: 35vw;
+  font-size: 1.5vw;
+  color: rgb(255, 255, 255);
+  background-color: rgb(55, 194, 95);
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+
+}
+
+.post-form{
+  background-color: rgb(216, 216, 216);
+  width: 60vw;
+  height: 25vh;
+  position: fixed;
+  top: 0;
+  left: 20vw;
+  border-radius: 6px;
+
+}
+
+.post-button{
+  position: fixed;
+  top: 15vh;
+  left: 37.5vw;
+  width: 25vw;
+  height: 8vh;
+  font-size: 1.5vw;
+  color: rgb(255, 255, 255);
+  background-color: rgb(55, 194, 95);
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.post-link{
+  position: fixed;
+  top: 5vh;
+  left: 35vw;
+  width: 30vw;
+  height: 5vh;
+  font-size: 1.3vw;
+  text-align: center;
+}
+
+.admin-post{
+  display: grid;
+    position: fixed;
+    width: 60vw;
+    height: 70vh;
+    bottom: 0;
+    left: 20vw;
+    justify-content: center;
+    overflow-y: scroll;
+    background-color: rgb(255, 255, 255);
+}
+
+.delete-post{
+  width: 60vw;
+  height: 8vh;
+  font-size: 2vw;
+  color: rgb(255, 255, 255);
+  background-color: rgb(204, 58, 58);
+  border-radius: 6px;
+  margin-bottom: 0.3vw;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
 
 
 .container{
@@ -318,19 +473,6 @@ input[type=number] {
   background-color: rgb(46, 144, 79);
 }
 
-.GmLogo{
-    background: url(assets/img/GM-logo.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-    width: 7vw;
-    height: 8.7vw;
-    position: fixed;
-    left: 5vw;
-    top: 2vh;
-    cursor: pointer;
-}
-
 .logo{
     background: url(assets/img/BS_logo.png);
     background-position: center;
@@ -341,19 +483,6 @@ input[type=number] {
     position: fixed;
     right: 37.5vw;
     top: 2vh;
-}
-
-.priLogo{
-    background: url(assets/img/pri-logo.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-    width: 12vw;
-    height: 8.5vw;
-    position: fixed;
-    right: 4vw;
-    top: 2vh;
-    cursor: pointer;
 }
 
 .navLogo{
@@ -572,6 +701,11 @@ input[type=number] {
     align-items: center;
   }
 
+  .footer_text{
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+  }
+
 .menu-grid-1_1{
     display: grid;
     grid-template-columns: 20vw 60vw 20vw;
@@ -648,41 +782,7 @@ input[type=number] {
     height: 85vh;
     width: 60vw;
     object-fit: cover;
-  }
-
-  .gif-1_2{
-    background: url(assets/img/zjazdTyrolski.gif);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .gif-1_3{
-    background: url(assets/img/kameryOnline.gif);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .gif-2_1{
-    background: url(assets/img/gastronomia.gif);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .gif-2_2{
-    background: url(assets/img/letnieAtrakcje.gif);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
-  .gif-2_3{
-    background: url(assets/img/potrzebneInformacje.gif);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: rgb(255, 255, 255);
   }
 
   .buttons_right{
@@ -691,6 +791,10 @@ input[type=number] {
     background-color: rgba(0,0,0,.1);
     text-align: center;
     cursor: pointer;
+    position: fixed;
+    right: 0;
+    width: 20vw;
+    height: 85vh;
   }
 
 
@@ -779,6 +883,7 @@ input[type=number] {
     width: 28vw;
     height: 28vw;
     object-fit: cover;
+    cursor: pointer;
   }
   
   .menu-1_1-column-2_3{
